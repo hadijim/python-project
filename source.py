@@ -8,13 +8,13 @@ def is_warekeeper():
 
 
 class User():
-    def __init__(self) -> None:
+    def __init__ (self, email:str, password:str, role:str , personalcode:int):
         # username(email) password pesonalNumber
-        # anbardar
-        # sandogh dar
         # role -> list {admin , anbar , sandoq}
-        
-        pass
+        self.email = email
+        self.password = password
+        self.role = role
+        self.personalcode = personalcode
     def has_permission():
         # querying throw db to find user role
         pass
